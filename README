@@ -1,0 +1,6 @@
+This repository contains a function to do some diagnostics on DNS lookup. Given an IP adress it does following things:
+
+* pings the ip
+* looks up the name
+* uses this name to find out the ip
+* compares the resolved ip with the IP adress that was given to the function as input
